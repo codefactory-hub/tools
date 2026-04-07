@@ -5,22 +5,22 @@ cask "changes" do
   on_macos do
     on_intel do
       url "https://github.com/codefactory-hub/changes/releases/download/v#{version}/changes_#{version}_darwin_amd64.zip"
-      sha256 "7d9085ea8273f2bc9c1d95ee05b100bef5107df08ac0d056ddefc2d4f2e40158"
+      sha256 "d5f638990423ed472d95f8f3169c431f2a7d8a74af5b695aaf9515da0da308bc"
     end
     on_arm do
       url "https://github.com/codefactory-hub/changes/releases/download/v#{version}/changes_#{version}_darwin_arm64.zip"
-      sha256 "ef1686097a6e4cadcd1ca8c612cf5eea545734cbd3442f6c78863a859ca7344e"
+      sha256 "4433f9d60613ef0bd9e7edf0b3877ba2839e36c9a73959e00ab9a06fef3f61c8"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/codefactory-hub/changes/releases/download/v#{version}/changes_#{version}_linux_amd64.tar.gz"
-      sha256 "3a4ec99eb5b24b530b269930c5bc69222b1ab6fcc7be0c4c6f0eb934f74b3e21"
+      sha256 "aac78e8d4833e73a1737ac5ad236a0b3744d2b6eef080016ba85f25f02e3108f"
     end
     on_arm do
       url "https://github.com/codefactory-hub/changes/releases/download/v#{version}/changes_#{version}_linux_arm64.tar.gz"
-      sha256 "dccf7f1310ee2add8542b0f7406b46ae690465a7dce044a687c1a7d3c0c79470"
+      sha256 "14aabb3e2202247bd9bb73f7216ff2723a624619a22d2028f0121ffa1f00b4dc"
     end
   end
 
